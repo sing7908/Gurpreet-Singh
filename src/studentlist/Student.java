@@ -14,6 +14,7 @@ public class Student {
  
     private String name;
     private int id;
+    private int maxHours;
     
    
     public Student()
@@ -44,5 +45,15 @@ public class Student {
            return this.id;
     }
             
+    
+    public void setmaxHours(int maxHours)
+    {
+        this.maxHours = maxHours;
+                
+    }
+    public int getmaxHours()
+    {
+        return this.maxHours;
+    }
     
 }
